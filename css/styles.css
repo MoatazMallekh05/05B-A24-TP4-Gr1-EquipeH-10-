@@ -1,0 +1,85 @@
+/* Variables */
+/* Import des polices Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Ultra&display=swap");
+/* Styles de base */
+body {
+  font-family: "Ultra", serif;
+  background-color: #F5F5F5;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "PT Serif", serif;
+  color: #3B5998;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #8B9DC3;
+  text-decoration: none;
+}
+a:hover {
+  color: #DFF0F8;
+  text-decoration: underline;
+}
+
+button {
+  background-color: #3B5998;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-family: "Ultra", serif;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #8B9DC3;
+}
+
+/* Header */
+header {
+  background-color: #3B5998;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Main container */
+main {
+  padding: 20px;
+  background-color: #F5F5F5;
+}
+main section {
+  margin-bottom: 40px;
+}
+main section h2 {
+  font-size: 1.8rem;
+  color: #3B5998;
+  margin-bottom: 20px;
+  text-align: center;
+}
+main section #chart_div {
+  width: 100%;
+  height: 500px;
+  border: 1px solid #8B9DC3;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #8B9DC3;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+}
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}/*# sourceMappingURL=styles.css.map */

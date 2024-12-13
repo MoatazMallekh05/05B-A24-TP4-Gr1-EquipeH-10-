@@ -1,0 +1,100 @@
+/* Variables */
+$primary-color: #3B5998; 
+$secondary-color: #8B9DC3; 
+$text-color: #333333; 
+
+$font-title: 'PT Serif', serif; 
+$font-body: 'Ultra', serif; 
+
+/* Import des polices Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Ultra&display=swap');
+
+/* Styles de base */
+body {
+  font-family: $font-body;
+  background-color: $background-color;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-title;
+  color: $primary-color;
+  margin-bottom: 20px;
+}
+
+a {
+  color: $secondary-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $accent-color;
+    text-decoration: underline;
+  }
+}
+
+button {
+  background-color: $primary-color;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-family: $font-body;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $secondary-color;
+  }
+}
+
+
+header {
+  background-color: $primary-color;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+}
+
+
+main {
+  padding: 20px;
+  background-color: $background-color;
+
+  section {
+    margin-bottom: 40px;
+
+    h2 {
+      font-size: 1.8rem;
+      color: $primary-color;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    #chart_div {
+      width: 100%;
+      height: 500px;
+      border: 1px solid $secondary-color;
+      border-radius: 8px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+
+footer {
+  background-color: $secondary-color;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+
+  p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+}
